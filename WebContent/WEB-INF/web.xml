@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>WhyQServlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>login.html</welcome-file>
+    <welcome-file>login.htm</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+  	<servlet-name>abc123</servlet-name>
+  	<servlet-class>com.ServletImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>abc123</servlet-name>
+  <url-pattern>/login</url-pattern>
+  </servlet-mapping> 
+  
+  
+  
+  <servlet>
+  	<servlet-name>abc12345</servlet-name>
+  	<servlet-class>com.UpdateImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>abc12345</servlet-name>
+  <url-pattern>/updates</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+  	<servlet-name>abc1234567</servlet-name>
+  	<servlet-class>com.TokensImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>abc1234567</servlet-name>
+  <url-pattern>/tokens</url-pattern>
+  </servlet-mapping> 
+  
+  
+  
+  
+  
+</web-app>
